@@ -59,11 +59,10 @@ Week 1 of Course 1 is all about the **fundamentals of supervised learning**, wit
 
 | Lab | Topic | What I Learned (and giggled at) |
 |-----|-------|----------------------------------|
-| **C1_W1_Lab01** | Model Representation | How to represent a linear model \( f(x) = wx + b \). Also, the profound realisation that “w” stands for “weight” and “b” for “bias” – not “wumbo” and “bazinga”. |
-| **C1_W1_Lab02** | Cost Function | The Mean Squared Error (MSE) cost function, and why we square errors (so negative errors don’t cancel positive ones – math is clever like that). |
-| **C1_W1_Lab03** | Linear Regression | Actually fitting a line to some data! It’s like magic, but with more calculus. |
-| **C1_W1_Lab04** | Gradient Descent | The star of the show! How to find the minimum of the cost function by repeatedly taking small steps downhill. Metaphorically, it’s like trying to find the bottom of a valley in the dark. |
-| **C1_W1_Lab05** | Feature Scaling & Learning Rate | Why you should scale your features (so one feature doesn’t dominate the gradient) and how to pick a learning rate that’s not too big (divergence!) or too small (takes forever). |
+| **C1_W1_Lab01** | Model Representation | Learned how a linear model works: \( f_{w,b}(x) = wx + b \). Turns out "w" and "b" are not random letters — they actually *mean something*. |
+| **C1_W1_Lab02** | Cost Function | Introduced to the cost function \( J(w,b) \), specifically Mean Squared Error. Basically: how wrong is my model, and how do I measure that pain mathematically? |
+| **C1_W1_Lab03** | Gradient Descent | The core idea of optimization — updating parameters step by step to minimize cost. AKA: walking downhill blindfolded but with math as your guide. |
+| **C1_W1_Lab04** | Gradient Descent in Practice | Implemented gradient descent for linear regression and actually saw it converge. Very satisfying when it works… mildly traumatic when it doesn’t. |
 
 Each notebook contains code, visualisations, and my own comments (some serious, some less so). Feel free to snoop around.
 
