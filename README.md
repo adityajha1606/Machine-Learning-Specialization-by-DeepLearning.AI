@@ -57,11 +57,11 @@ Machine-Learning-Specialization-by-DeepLearning.AI/
 
 Week 1 of Course 1 is all about the **fundamentals of supervised learning**, with a focus on **linear regression**. Here’s a quick recap of the labs:
 
-| Lab | Topic | What I Learned (and giggled at) |
+| Lab | Topic | What I Learned |
 |-----|-------|----------------------------------|
-| **C1_W1_Lab01** | Model Representation | Learned how a linear model works: \( f_{w,b}(x) = wx + b \). Turns out "w" and "b" are not random letters — they actually *mean something*. |
+| **C1_W1_Lab01** | Model Representation | Learned how a linear model works: \( f_{w,b}(x) = wx + b \). Turns out "w" and "b" are not random letters, they actually *mean something*. |
 | **C1_W1_Lab02** | Cost Function | Introduced to the cost function \( J(w,b) \), specifically Mean Squared Error. Basically: how wrong is my model, and how do I measure that pain mathematically? |
-| **C1_W1_Lab03** | Gradient Descent | The core idea of optimization — updating parameters step by step to minimize cost. AKA: walking downhill blindfolded but with math as your guide. |
+| **C1_W1_Lab03** | Gradient Descent | The core idea of optimization, updating parameters step by step to minimize cost. AKA: walking downhill blindfolded but with math as your guide. |
 | **C1_W1_Lab04** | Gradient Descent in Practice | Implemented gradient descent for linear regression and actually saw it converge. Very satisfying when it works… mildly traumatic when it doesn’t. |
 
 Each notebook contains code, visualisations, and my own comments (some serious, some less so). Feel free to snoop around.
